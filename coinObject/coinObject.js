@@ -26,11 +26,11 @@ const coin = {
       let face = this.toString()
       // Colocar uma imagem correspondente a essa valor.
       if(face === 'Heads'){
-        image.src = "../images/cara.jpeg"
+        image.src = "./images/cara.jpeg"
         image.alt = "Heads"
       }
       if(face === 'Tails'){
-        image.src = '../images/coroa.jpeg'
+        image.src = './images/coroa.jpeg'
         image.alt = 'Tails'
       }
       
