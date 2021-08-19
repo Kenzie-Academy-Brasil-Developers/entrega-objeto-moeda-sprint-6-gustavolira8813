@@ -26,11 +26,11 @@ const coin = {
       let face = this.toString()
       // Colocar uma imagem correspondente a essa valor.
       if(face === 'Heads'){
-        image.src = "./images/cara.jpeg"
+        image.src = "../images/cara.jpeg"
         image.alt = "Heads"
       }
       if(face === 'Tails'){
-        image.src = './images/coroa.jpeg'
+        image.src = '../images/coroa.jpeg'
         image.alt = 'Tails'
       }
       
@@ -57,6 +57,7 @@ const coin = {
     // de retornar o valor de "results".
     // Caso esqueça de retornar "results", sua função não
     // irá passar nos testes.
+    
     return results
   }
   
@@ -65,7 +66,7 @@ const coin = {
     // Use um loop para arremessar a moeda 20 vezes.
     for(let i = 0; i < 20; i++){
       coin.flip()
-      results.push(coin.toString)
+      results.push(coin.toString())
       coin.toHTML()
     }
     // Depois que o seu loop terminar, exiba o resultado na página no formato de IMAGEM.
@@ -73,6 +74,7 @@ const coin = {
     // de retornar o valor de "results".
     // Caso esqueça de retornar "results", sua função não
     // irá passar nos testes.
+    
     return results
   }
 
